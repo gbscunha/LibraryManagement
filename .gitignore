@@ -1,0 +1,56 @@
+# .NET
+bin/
+obj/
+
+# .vs (Visual Studio)
+.vs/
+
+# .idea (JetBrains Rider)
+.idea/
+
+# Visual Studio for Mac
+.vscode/
+
+# ASP.NET Scaffolding
+Scaffolding/
+
+# User-specific files
+appsettings.Development.json
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows Installer logs
+*.cab
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Logs
+logs/
+*.log
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# JetBrains Rider project files
+.idea/
+
+# JetBrains Rider user files
+.idea/*
+!/.idea/workspace.xml

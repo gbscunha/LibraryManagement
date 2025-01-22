@@ -1,0 +1,65 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryManagement", "LibraryManagement.csproj", "{5249F780-3F6D-0704-DBC0-BE088973AFD9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B48B9E2A-5C33-4805-ABDC-4B30F4E1A4E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryManagement.Api", "src\LibraryManagement.Api\LibraryManagement.Api.csproj", "{A763BFDD-5F2A-4D93-B9C8-4DCB86ECA680}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryManagement.Application", "src\LibraryManagement.Application\LibraryManagement.Application.csproj", "{44EA91BC-95A9-47D6-83C3-0DA522057988}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryManagement.Domain", "src\LibraryManagement.Domain\LibraryManagement.Domain.csproj", "{B485F1B8-D1FB-49ED-9D0C-966FD4C17E26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryManagement.Infrastructure", "src\LibraryManagement.Infrastructure\LibraryManagement.Infrastructure.csproj", "{971F7DD1-4B0B-4245-B8D3-6D763FC1411E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{BC2BEFD6-8CA3-4934-920A-DB286685F4B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryManagement.Tests", "tests\LibraryManagement.Tests\LibraryManagement.Tests.csproj", "{EDE22E41-2566-4BF9-BD1F-1F4A04E51F11}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5249F780-3F6D-0704-DBC0-BE088973AFD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5249F780-3F6D-0704-DBC0-BE088973AFD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5249F780-3F6D-0704-DBC0-BE088973AFD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5249F780-3F6D-0704-DBC0-BE088973AFD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A763BFDD-5F2A-4D93-B9C8-4DCB86ECA680}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A763BFDD-5F2A-4D93-B9C8-4DCB86ECA680}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A763BFDD-5F2A-4D93-B9C8-4DCB86ECA680}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A763BFDD-5F2A-4D93-B9C8-4DCB86ECA680}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44EA91BC-95A9-47D6-83C3-0DA522057988}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44EA91BC-95A9-47D6-83C3-0DA522057988}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44EA91BC-95A9-47D6-83C3-0DA522057988}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44EA91BC-95A9-47D6-83C3-0DA522057988}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B485F1B8-D1FB-49ED-9D0C-966FD4C17E26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B485F1B8-D1FB-49ED-9D0C-966FD4C17E26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B485F1B8-D1FB-49ED-9D0C-966FD4C17E26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B485F1B8-D1FB-49ED-9D0C-966FD4C17E26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{971F7DD1-4B0B-4245-B8D3-6D763FC1411E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{971F7DD1-4B0B-4245-B8D3-6D763FC1411E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{971F7DD1-4B0B-4245-B8D3-6D763FC1411E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{971F7DD1-4B0B-4245-B8D3-6D763FC1411E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDE22E41-2566-4BF9-BD1F-1F4A04E51F11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDE22E41-2566-4BF9-BD1F-1F4A04E51F11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDE22E41-2566-4BF9-BD1F-1F4A04E51F11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDE22E41-2566-4BF9-BD1F-1F4A04E51F11}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D43817D8-41C2-4B56-B6DE-26AB2ADB9EA8}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A763BFDD-5F2A-4D93-B9C8-4DCB86ECA680} = {B48B9E2A-5C33-4805-ABDC-4B30F4E1A4E5}
+		{44EA91BC-95A9-47D6-83C3-0DA522057988} = {B48B9E2A-5C33-4805-ABDC-4B30F4E1A4E5}
+		{B485F1B8-D1FB-49ED-9D0C-966FD4C17E26} = {B48B9E2A-5C33-4805-ABDC-4B30F4E1A4E5}
+		{971F7DD1-4B0B-4245-B8D3-6D763FC1411E} = {B48B9E2A-5C33-4805-ABDC-4B30F4E1A4E5}
+		{EDE22E41-2566-4BF9-BD1F-1F4A04E51F11} = {BC2BEFD6-8CA3-4934-920A-DB286685F4B3}
+	EndGlobalSection
+EndGlobal

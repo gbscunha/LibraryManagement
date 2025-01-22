@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "EoVpeN3VXf8=",
+  "success": true,
+  "projectFilePath": "/Users/gbcunha/dev/LibraryManagement/LibraryManagement.csproj",
+  "expectedPackageFiles": [
+    "/Users/gbcunha/.nuget/packages/microsoft.aspnetcore.openapi/9.0.1/microsoft.aspnetcore.openapi.9.0.1.nupkg.sha512",
+    "/Users/gbcunha/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
